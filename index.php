@@ -18,12 +18,12 @@
     <main>
         <div class="container">
             <div class="row">
-                <form method="POST">
+                <form method="POST" action="pesquisa.php">
                     <div>
                         <label for="input1" class="form-label">Pesquisa</label>
                         <input id="input1" name="input_search" class="form-control">
                     </div>
-                    <button class="btn btn-warning" name="button_search">Pesquisar</button>
+                    <button type="submit" class="btn btn-warning" name="button_search">Pesquisar</button>
                 </form>
             </div>
         </div>
